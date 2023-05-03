@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+    <script src="firebase-config.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#" class="active">Sign Up</a>
+      <a href="signin.html">Sign In</a>
+    </div>
+
+    <h1>Sign Up</h1>
+
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+
+      <button type="submit" onclick="signUp()">Sign Up</button>
+    </form>
+
+    <script src="signup.js"></script>
+  </body>
+</html>

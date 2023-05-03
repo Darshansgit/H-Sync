@@ -1,0 +1,73 @@
+[debug] [2023-04-29T16:56:14.582Z] ----------------------------------------------------------------------
+[debug] [2023-04-29T16:56:14.583Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-04-29T16:56:14.584Z] CLI Version:   11.29.1
+[debug] [2023-04-29T16:56:14.584Z] Platform:      linux
+[debug] [2023-04-29T16:56:14.584Z] Node Version:  v18.16.0
+[debug] [2023-04-29T16:56:14.584Z] Time:          Sat Apr 29 2023 22:56:14 GMT+0600 (Bhutan Time)
+[debug] [2023-04-29T16:56:14.584Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-29T16:56:14.586Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-04-29T16:56:14.620Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-29T16:56:14.621Z] > authorizing via signed-in user (darshansubedi31@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/d/Documents/FYP/ML/firebaseML
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-29T16:56:25.984Z] > refreshing access token with scopes: []
+[debug] [2023-04-29T16:56:25.985Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-29T16:56:25.986Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-29T16:58:08.203Z] ----------------------------------------------------------------------
+[debug] [2023-04-29T16:58:08.204Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-04-29T16:58:08.205Z] CLI Version:   11.29.1
+[debug] [2023-04-29T16:58:08.205Z] Platform:      linux
+[debug] [2023-04-29T16:58:08.205Z] Node Version:  v18.16.0
+[debug] [2023-04-29T16:58:08.205Z] Time:          Sat Apr 29 2023 22:58:08 GMT+0600 (Bhutan Time)
+[debug] [2023-04-29T16:58:08.205Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-29T16:58:08.207Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-04-29T16:58:08.241Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-29T16:58:08.241Z] > authorizing via signed-in user (darshansubedi31@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/d/Documents/FYP/ML/firebaseML
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-04-29T16:58:45.150Z] > refreshing access token with scopes: []
+[debug] [2023-04-29T16:58:45.151Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-29T16:58:45.151Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-04-29T17:00:18.180Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-04-29T17:01:00.063Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
