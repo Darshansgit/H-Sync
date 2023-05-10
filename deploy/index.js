@@ -1,3 +1,5 @@
+firebase.initializeApp(firebaseConfig);
+
 const firebaseConfig = {
 
   apiKey: "AIzaSyA6X7xLIIT0wPb8eMvGS2NIiLsmYrkiJ0M",
@@ -13,8 +15,8 @@ const firebaseConfig = {
           messagingSenderId: "70696485797",
 
             appId: "1:70696485797:web:63486f6028ea8822b69e4c"
-
 }
+
 
 async function loadModel()
 {
@@ -60,8 +62,13 @@ async function button() {
         output = tf.argMax(result).dataSync();
         output = Number(output)+1;
         console.log(output);
+        document.write(output);
 }
 
+async function main()
+{
+
+}
 
 function fetch_FB_data()
 {

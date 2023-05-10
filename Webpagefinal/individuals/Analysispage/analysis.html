@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src= "analysis.js" type="module"></script>
+
+<link rel="stylesheet" href="analysis.css">
+
+<head onload="loadModel();">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis</title>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.4.0/dist/tf.min.js "></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-firestore.js"></script> -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+   
+</head>
+
+<body>
+    <div id="body">
+        <div class = "textup">
+            <h1>Welcome User 1</h1>
+        </div>
+        <div >
+            <table class="wholeTable">
+                <thead class="tableHeader">
+                    <th>Slno</th>
+                    <th>Date(YY/MM/DD)</th>
+                    <th>Systolic(mm/hg)</th>
+                    <th>Diastolic(mm/hg)</th>
+                    <th>Heart Rate(beats/min)</th>
+                    <th>Diagnosis</th>
+                </thead>
+                <tbody id="tbody1"></tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
