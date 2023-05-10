@@ -1,0 +1,153 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(25deg, #b4ab91, #9c8275, #9e7c8b, #8338EC, #3A86FF);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+#content_container {
+    width: 30%;
+    height: 70%;
+}
+
+#form_container {
+    width: 100%;
+    height: 100%;
+
+    background-color: #2e0227;
+    box-shadow: 0 0 50px -20px #000;
+    border-radius: 2%;
+
+    overflow: hidden;
+}
+
+#form_header_container {
+    width: 100%;
+    height: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    border-bottom: 1px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 20;
+    background: #000;
+}
+
+#form_header {
+    display: inline-block;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    font-weight: 900;
+    text-transform: auto;
+    letter-spacing: 1px;
+
+
+    background: -webkit-linear-gradient(25deg, #f3f2ee, #faf6f4, #f0eeee, #fbfafd, #3A86FF);
+      -webkit-background-clip: text;
+      background-clip:text;
+      -webkit-text-fill-color: transparent;
+}
+
+#form_content_container {
+    width: 100%;
+    height: 90%;
+
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+#form_content_inner_container {
+    width: 75%;
+    height: 100%;
+
+    float: left;
+
+}
+
+input {
+    width: 100%;
+    height: 40px;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+    background: #000;
+    font-family: Georgia, serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 1;;
+}
+
+#button_container {
+    width: 50%;
+    height: 7%;
+
+    background-image: linear-gradient(80deg, #FFBE0B, #FB5607 , #FF006E , #8338EC);
+    color: #f5eeee;
+
+    float: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+#button_container button {
+    width: 50%;
+    height: 100%;
+    float: center;
+
+    background: transparent;
+    color: inherit;
+
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+a {
+	text-decoration: none;
+    font-family:  Times, serif;
+    font-size: 22px;
+    padding-bottom: center;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+	}
